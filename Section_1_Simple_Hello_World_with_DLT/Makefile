@@ -1,4 +1,4 @@
 all:
-	gcc -o dlt_hello dlt_hello.c -ldlt
+	gcc -o hello_dlt hello_dlt.c -ldlt
 clean:
-	rm dlt_hello
+	rm hello_dlt

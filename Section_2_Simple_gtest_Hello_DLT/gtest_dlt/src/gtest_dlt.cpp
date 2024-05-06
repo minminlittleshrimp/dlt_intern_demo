@@ -1,8 +1,7 @@
+#include <stdio.h>
+#include <stdlib.h>
 #include "gtest/gtest.h"
-
-extern "C" {
-#include "hello_dlt.h"
-}
+#include "dlt/hello_dlt.h"
 
 TEST(t_dlt_log_to_console, normal) {
     int level = STDOUT_RETURN_OK;

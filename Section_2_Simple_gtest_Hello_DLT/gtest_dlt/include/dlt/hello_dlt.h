@@ -11,6 +11,6 @@ enum stdout_level {
  * log_level: the stdout level
  * text: data to be log
  */
-int dlt_log_to_console(int log_level, const char *text);
+int dlt_log_to_console(int log_level, const char* text);
 
 #endif
